@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@fluentui/react": "^8.110.5",
-    "react-router-dom": "^6.14.0",
-    "vite-node": "^0.32.2"
-  }
-}
