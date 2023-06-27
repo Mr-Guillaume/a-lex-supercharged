@@ -163,8 +163,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>A-Lex</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Chatbot configured to answer branch offices questions about temporary staffing French legislation</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>chatGDP (A-Lex)</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>A-Lex is configured to answer branch offices questions about temporary staffing French legislation</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
