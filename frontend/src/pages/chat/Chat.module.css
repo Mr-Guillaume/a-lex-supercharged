@@ -37,9 +37,9 @@
 
 .chatEmptyStateTitle {
     font-family: "Segoe UI";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 24px;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -49,12 +49,13 @@
 }
 
 .chatEmptyStateSubtitle {
-    margin-top: 20px;
+    margin-top: 6px;
+    margin-bottom: 48px;
     font-family: "Segoe UI";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
     display: flex;
     align-items: flex-end;
     text-align: center;
@@ -62,9 +63,22 @@
     color: #616161;
 }
 
+.chatEmptyStateSamples {
+    margin-top: 0px;
+    font-family: "Segoe UI";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 5px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #616161;
+}
 .chatIcon {
-    height: 62px;
-    width: 62px;
+    height: 116px;
+    width: 500px;
 }
 
 .chatMessageStream {

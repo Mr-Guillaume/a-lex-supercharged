@@ -7,7 +7,7 @@ import remarkGfm from 'remark-gfm'
 import rehypeRaw from "rehype-raw"; 
 
 import styles from "./Chat.module.css";
-import Azure from "../../assets/Azure.svg";
+import Azure from "../../assets/TAG-cropped.svg";
 
 import {
     ChatMessage,
@@ -163,8 +163,11 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>chatGDP (A-Lex)</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>A-Lex is configured to answer branch offices questions about temporary staffing French legislation</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>A-Lex is a temporary staffing AI assistant for France</h1>                             
+                                <h2 className={styles.chatEmptyStateSubtitle}>helps Adecco Agencies with questions about French temporary staffing legislation and Adecco Business Policies</h2>
+                                <h3 className={styles.chatEmptyStateSamples}>"Can a temporary worker refuse to work overtime?"</h3>
+                                <h3 className={styles.chatEmptyStateSamples}>"Can a temporary worker go on strike?"</h3>
+                                <h3 className={styles.chatEmptyStateSamples}>"Does my client need to provide a reason to call for temporary workforce?"</h3>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
